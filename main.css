@@ -74,7 +74,7 @@
             background-color: rgb(223, 196, 40);
             width: 600px;
             text-align: left;
-            margin-left: 275px;
+            margin-left: 270px;
             box-shadow: 0 4px 20px;
         }
 
@@ -188,7 +188,7 @@
             transition: background-color 0.3s ease;
             box-shadow: none;
             width: 200px;
-            margin-left: 480px;
+            margin-left: 490px;
         }
 
         .image-container {
