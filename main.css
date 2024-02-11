@@ -23,7 +23,7 @@
         .img-header {
             display: flex;
             align-items: center;
-            margin-left: 270px; 
+            margin-left: 280px; 
         }
           
         .header h1 {
@@ -74,7 +74,7 @@
             background-color: rgb(223, 196, 40);
             width: 600px;
             text-align: left;
-            margin-left: 270px;
+            margin-left: 275px;
             box-shadow: 0 4px 20px;
         }
 
