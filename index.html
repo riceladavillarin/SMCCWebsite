@@ -3,96 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMCC School Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-image: url('smcc-bg.jfif');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-
-        header {
-            background-color: rgb(19, 19, 101);
-            color: #fff;
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: rgb(223, 196, 40);
-            overflow: hidden;
-        }
-        
-        nav a {
-            float: left;
-            display: block;
-            color: #fff;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: #ddd;
-            color: goldenrod;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: rgb(19, 19, 101);
-            color: #fff;
-            text-align: center;
-            padding: 1px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        .box-style {
-            border: 2px solid #f0f0f0;
-            padding: 10px;
-            border-radius: 5px;
-            background-color: #f0f0f0;
-        }
-    </style>
+    <link rel="icon" href="smcc_logo.gif" type="SMCC Icon">
+    <link rel="shortcut icon" href="smcc_logo.gif" type="SMCC Icon">
+    <title>Saint Michael College of Caraga</title>
+    <link rel="stylesheet" href="main.css">
+    
 </head>
 <body>
 
     <header>
+        <div class="img-header">
+        <img src="smcc_logo.gif" alt="SMCC Logo" height="80" width="80" style="border-radius: 50%;" style="box-shadow: 0 0 5cap;">
         <h1>Saint Michael College of Caraga</h1>
+        </div>
     </header>
 
     <nav>
         <a href="#home">Home</a>
-        <a href="#about">About SMCC</a>
+        <a href="#about">About</a>
         <a href="#courses">Courses Offered</a>
         <a href="#services">Services</a>
-        <a href="#contact">Contact Us</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <section id="about">
-        <h2>About SMCC</h2>
+    <main>
+    <article id="home">
+    <section>
+        <div class="image-container">
+            <div class="image-wrapper">
+                <figure>
+                <img src="presidents-corner.png" alt="President's Corner" style="height: 510px;">
+                <img src="rcrim.png" alt="Registered Criminologist" height="510px" width="510px">
+                <br>
+                <br>
+                <img src="rlib.png" alt="Registered Librarians" height="510px" width="500px">
+                <img src="scholarships.jpg" alt="Scholarships and Grants" height="510px" width="550px">
+                <br>
+                <br>
+                <img src="smcc-award.jpg" alt="SMCC Matalino Award" height="510px" width="500px">
+                <img src="asean-culinary-expo-2023.png" alt="Asean Culinary Expo 2023" height="510px" width="570">
+                <br>
+                <br>
+                <img src="bsed.jpg" alt="BSED Level 1 PACUCOA Accreditation" height="510px" width="570">
+                </figure>
+            </div>
+        </div>
+    </section>
+    </article>
+
+    <hr>
+
+    <article id="about">
+    <section>
         <p class="box-style">Saint Michael College of Caraga also referred to by its acronym SMCC is a private, Roman Catholic, basic education and higher education institution run by the Roman Catholic Diocese of Butuan in Nasipit, Agusan del Norte in the Philippines. It was established in 1948 by the Missionaries of the Sacred Heart fathers.</p>
-        <h2>VISION</h2>
-        <p>Saint Michael College of Caraga envsions to be a University by 2035 and upholds spiritual formation and excellence in teaching, service, and research.</p>
-        <h2>MISSION</h2>
-        <ul style="list-style-type: disc;">
+        <br>
+        <button class="box-button">VISION</button>
+        <p class="box-style"> Saint Michael College of Caraga envisions to be a University by 2035 and upholds spiritual formation and excellence in teaching, service, and research.</p>
+        <br>
+        <button class="box-button">MISSION</button>
+        <ul style="list-style-type: disc;" class="box-style">
             <li>SMCC shall provide spiritual formation and learning culture that will ensure the students with an excellent and rewarding learning experiences that transform lives, abound spirituality, develop skills, and prepare future leaders;</li>
             <li>SMCC shall engage in dynamic, innovative, and interdisciplinary research to advance and achieve institutional initiatives; and</li>
             <li>SMCC shall commit to serve the diverse and local communities by fostering innovations through service-learning that enhances reciprocal community partnerships for spiritual and social development.</li>
         </ul>
-        <h2>GOAL</h2>
-        <p>Uphold Culture of Excellence in the Areas of Spiritual Formation, Instruction, Research, and Extension, thus produce Graduates that are Globally Competent, Spritually Embodied, and Socially Responsible.</p>
-        <h2>GENERAL OBJECTIVES</h2>
-        <ul style="list-style-type: disc;">
+        <br>
+        <button class="box-button">GOAL</button>
+        <p class="box-style">Uphold Culture of Excellence in the Areas of Spiritual Formation, Instruction, Research, and Extension, thus produce Graduates that are Globally Competent, Spritually Embodied, and Socially Responsible.</p>
+        <button class="box-button">GENERAL OBJECTIVES</button>
+        <ul style="list-style-type: disc;" class="box-style">
             <li>To integrate positive and evangelical values in all areas and design Christian formation programs that are effective and responsive to the psychospiritual needs of the learners, parents, and personnel.</li>
             <li>To enhance continuously the curriculum and cultivate teachers' effectiveness to promote quality instruction.</li>
             <li>To continue upgrading facilities and services for the satisfaction of the clientele.</li>
@@ -102,40 +80,338 @@
             <li>To establish harmonious linkages with Alumni, PTA, Parish, LGU, and other stakeholders which geared toward school development plans.</li>
             <li>To work for Accreditation by any recognized accrediting agency.</li>
         </ul>
-        <h2>PHILOSOPHY</h2>
-        <p>A person is always in the state of becoming until he/she arrives at the state of perfection-when he/she becomes fully alive. Hence, the aim of quality education is to transform every student into fully integrated individuals who have not only honed their skills and potentials to the optimum but who are truly men and women of God and committed persons for others. Thus, SMCC's commitment to the Christian and quality education.</p>
-        <h2>CORE VALUES</h2>
-        <ul style="list-style-type: none;">
-            <li><b>S</b> - Socially Responsible</li>
-            <li><b>M</b> - Missionary</li>
-            <li><b>C</b> - Committed</li>
-            <li><b>C</b> - Competent</li>
+        <br>
+        <button class="box-button">PHILOSOPHY</button>
+        <p class="box-style">A person is always in the state of becoming until he/she arrives at the state of perfection-when he/she becomes fully alive. Hence, the aim of quality education is to transform every student into fully integrated individuals who have not only honed their skills and potentials to the optimum but who are truly men and women of God and committed persons for others. Thus, SMCC's commitment to the Christian and quality education.</p>
+        <br>
+        <button class="box-button">CORE VALUES</button>
+        <ul style="list-style-type: none;" class="box-style">
+            <li style="margin-left: 220px;"><b>S</b> - Socially Responsible</li>
+            <li style="margin-left: 220px;"><b>M</b> - Missionary</li>
+            <li style="margin-left: 220px;"><b>C</b> - Committed</li>
+            <li style="margin-left: 220px;"><b>C</b> - Competent</li>
         </ul>
-        <h2>MICHAELINIAN IDENTITY</h2>
-        <p>Secured by Saint Michael the Archangel's Sword of Bravery and Victory, nourished by the faithful acceptance and practice of the Christian teachings and guidance of the Catholic church, animated by Mary's maternal devotion and intercession, guided by the gospel values, and empowered by Christ's life and examples - the Michaelinians of today and tomorrow are persons who are:</p>
-        <ul style="list-style-type: disc;">
+        <br>
+        <button class="box-button">MICHAELINIAN IDENTITY</button>
+        <ul style="list-style-type: disc;" class="box-style">
+            Secured by Saint Michael the Archangel's Sword of Bravery and Victory, nourished by the faithful acceptance and practice of the Christian teachings and guidance of the Catholic church, animated by Mary's maternal devotion and intercession, guided by the gospel values, and empowered by Christ's life and examples - the Michaelinians of today and tomorrow are persons who are: <br><br>
             <li><b>S - ocially Responsible</b> the respect, care, love and development of God's creations as such at all times demonstrate and live out their social responsibilities;</li>
             <li><b>M - Missionaries of Christian Values</b> in possessing a faith that is dynamic to imbibe and to proclaim and promote the Christian values, hence, sharing in the mission of Christ and of the Catholic church to make all people members of one sheepfold of God;</li>
             <li><b>C - Committed Individuals and/or Leaders</b> as equated to the faithful commitment of Jesus to His Father, thus, upholding unconditional commitment to value-filled life and actions of love and mercy;</li>
-            <li><b>C - Competent in their Chosen Field of Endeavor</b> by being aware, curious, and interested in learning about the world and how it works in order to possess the ability to innovate and ensure success.</li>
-
+            <li><b>C - Competent in their Chosen Field of Endeavor</b> by being aware, curious, and interested in learning about the world and how it works in order to possess the ability to innovate and ensure success.
+            </li>
         </ul>
     </section>
+    </article>
 
-    <section id="courses">
-        <h2>Courses Offered</h2>
-        <p></p>
-    </section>
+    <hr>
 
-    <section id="services">
-        <h2>Services</h2>
-        <p></p>
+    <article id="courses">
+    <section>
+        <button>COURSES OFFERED</button>
+        <br>
+        <br>
+        <div class="container">
+            <div class="box">
+              <img src="ccis.jpg" alt="CCIS Logo">
+              <h3 style="text-align: center; color: goldenrod;">College of Computing and Information Sciences</h3>
+              <div class="text-box">
+              <ul>
+                <li>Bachelor of Science in Information Technology</li>
+                <li>Bachelor of Science in Computer Science</li>
+                <li>Bachelor of Library and Information Science</li>
+                <li>lDiploma in Information Technology</li>
+              </ul>
+              </div>
+            </div>
+            <div class="box">
+              <img src="ccje.jpg" alt="CCJE Logo">
+              <h3 style="text-align: center; color: goldenrod;">College of Criminal Justice <br>Education</h3>
+              <div class="text-box">
+              <ul>
+                <li>Bachelor of Science in Criminology</li>
+                <li>Bachelor of Science in Industrial Security Management</li>
+              </ul>
+              </div>
+            </div>
+            <div class="box">
+              <img src="cthm.jpg" alt="CTHM Logo">
+              <h3 style="text-align: center; color: goldenrod;">College of Tourism and Hospitality Management</h3>
+              <div class="text-box">
+              <ul>
+                <li>Bachelor of Science in Hospitality Management</li>
+                <li>Bachelor of Science in Tourism Management</li>
+                <li>Diploma in Hospitality Management Technology</li>
+                <li>Diploma in Tourism Management Technology</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="container">
+            <div class="box">
+              <img src="cbm.jpg" alt="CBM Logo">
+              <h3 style="text-align: center; color: goldenrod;">College of Business and <br>Management</h3>
+              <div class="text-box">
+              <ul>
+                <li>Bachelor of Science in Business Administration <i style="color: rgb(5, 5, 129);"> major in Financial Management</i></li>
+                <li>Bachelor of Science in Business Administration <i style="color: rgb(5, 5, 129);"> major in Human Resource Management</i></li>
+                <li>Bachelor of Science in Business Administration <i style="color: rgb(5, 5, 129);"> major in Marketing Management</i></li>
+                <li>Bachelor of Public Administration</li>
+                <li>Bachelor of Science in Entreprenuership</li>
+              </ul>
+              </div>
+            </div>
+            <div class="box">
+              <img src="cte.jpg" alt="CTE Logo">
+              <h3 style="text-align: center; color: goldenrod;">College of Teacher <br> Education</h3> 
+              <div class="text-box">
+              <ul>
+                <li>Bachelor of Elementary Education</li>
+                <li>Bachelor of Secondary Education <i style="color: rgb(5, 5, 129);"> major in English</i></li>
+                <li>Bachelor of Secondary Education <i style="color: rgb(5, 5, 129)"> major in Science</i></li>
+                <li>Bachelor of Secondary Education <i style="color: rgb(5, 5, 129);"> major in Social Studies</i></li>
+                <li>Bachelor of Physical Education</li>
+                <li>Bachelor of Technical Vocational Teacher Education</li>
+                <li>Bachelor of Early Childhood Education</li>
+              </ul>
+              </div>
+            </div>
+            <div class="box">
+              <img src="cas.jpg" alt="CAS Logo">
+              <h3 style="text-align: center; color: goldenrod;">College of Arts and <br> Sciences</h3>
+              <div class="text-box">
+              <ul>
+                <li>Bachelor of Arts <i style="color: rgb(5, 5, 129);"> major in English Language</i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
     </section>
+    </article>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p></p>
+    <hr>
+
+    <article id="services">
+    <section>
+        <button class="service-box">SERVICES</button>
+        <br>
+        <br>
+        <p style="text-align: center;" class="box-style"><b>ADMISSION REQUIREMENTS
+        </b><br><br>As a general policy on admission, the school shall accept new and returning pupils/students provided they meet the following requirements:</p>
+        <div class="containerr">
+        <div class="boxx">
+            <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">1. Preschool (New)</b>
+                <ul style="color: white;">
+                    <li>Age Requirement:</li>
+                    <ul style="list-style-type: circle;">
+                        <li>Nursery - Four (4) Years Old on or before October 31</li>
+                        <li>Kindergarten - Five (5) Years Old on or before October 31</li>
+                    </ul>
+                    <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                    <li>Two (2) pcs. 2x2 colored picture</li>
+                    <li>Interview with the Principal</li>
+                    <li>Marriage Contract of the Parents (optional)</li>
+                </ul>
+                </p>
+                </div>
+        <div class="boxx">
+            <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">2. Grade 1</b>
+                <ul style="color: white;">
+                    <li>Age Requirement:</li>
+                        <ul style="list-style-type: circle;">
+                            <li>Grade 1 - Six (6) Years Old on or before October 31</li>
+                        </ul>
+                        <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                        <li>Form 138 (Report Card Preschool Education)</li>
+                        <li>Two (2) pcs. 2x2 colored picture</li>
+                        <li>Marriage Contract of the Parents (optional)</li>
+                        <li>Passed the Reading Test</li>
+                        <li>Certificate of Completion (Photocopy)</li>
+                </ul>
+            </p>
+        </div>
+        <div class="boxx">
+            <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">3. Returning Pupils / Students</b>
+                <ul style="color: white;">
+                        <li>Final Examination Permit / Clearance</li>
+                        <li>Form 138</li>
+                </ul>
+            </p>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="containerr">
+            <div class="boxx">
+                <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">4. High School</b>
+                    <ul style="color: white;">
+                        <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                        <li>Form 138 (Report Card from Grade 6)</li>
+                        <li>Certificate of Good Moral Character</li>
+                        <li>Two (2) pcs. 2x2 colored picture</li>
+                        <li>Interview with the Principal</li>
+                        <li>Marriage Contract of the Parents (optional)</li>
+                    </ul>
+                    </p>
+                </div>
+            <div class="boxx">
+                <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">5. College First Year Students except BSED and BEED Programs</b>
+                    <ul style="color: white;">
+                        <li>Form 138 (Report Card)</li>
+                        <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                        <li>Two (2) pcs. 2x2 colored picture</li>
+                        <li>1 long brown size envelope</li>
+                        <li>1 long cellophane envelope</li>
+                        <li>Good Moral Certification from the Principal</li>
+                        <li>Passed the Reading and Multiplication Table Tests</li>
+                        <li>NCAE Result</li>
+                        <li>Marriage Contract (if married)</li>
+                        <li>Photocopy of PWD ID from DSWD (if PWD)</li>
+                        <li>Photocopy of any proof if 4Ps/Listahan 2.0 member or Household Number</li>
+                        <li>Certificate of Residency (if resident from Nasipit)</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="boxx">
+                <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" >6. College First Year BSED and BEED Students</b>
+                    <ul style="color: white;">
+                        <li>Form 138 (Report Card) with General Average of 85%</li>
+                        <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                        <li>Two (2) pcs. 2x2 colored picture</li>
+                        <li>1 long brown size envelope</li>
+                        <li>1 long cellophane envelope</li>
+                        <li>Good Moral Certification from the Principal</li>
+                        <li>Passed the Reading and Multiplication Table Tests</li>
+                        <li>Student Aptitude Test for Teachers (SATT) score of not less than 167</li>
+                        <li>IQ Test (OLSAT) score of not less than 31</li>
+                        <li>NCAE Result</li>
+                        <li>Marriage Contract (if married)</li>
+                        <li>Photocopy of PWD ID from DSWD (if PWD)</li>
+                        <li>Photocopy of any proof if 4Ps/Listahan 2.0 member or Household Number</li>
+                        <li>Certificate of Residency (if resident from Nasipit)</li>
+                    </ul>
+                </p>
+            </div>
+            </div>
+            <br>
+            <br>
+        <div class="containerr">
+            <div class="boxx">
+                <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">7. Basic Education Transferees</b>
+                    <ul style="color: white;">
+                        <li>Passed the Entrance Examination (written and oral)</li>
+                        <li>Form 138</li>
+                        <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                        <li>Certificate of Good Moral Character</li>
+                        <li>Two (2) pcs. 2x2 colored picture</li>
+                        <li>Interview with the Principal</li>
+                        <li>Marriage Contract of the Parents (optional)</li>
+                        <li>Passed the Reading and Multiplication Table Tests</li>
+                    </ul>
+                </p>
+            </div>
+                <div class="boxx">
+                    <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">8. College Transferees (non-educational programs and TESDA Programs except Seafarer)</b>
+                        <ul style="color: white;">
+                            <li>Honorable Dismissal</li>
+                            <li>Transcript of Records</li>
+                            <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                            <li>Two (2) pcs. 2x2 latest colored picture</li>
+                            <li>1 long brown size envelope</li>
+                            <li>1 long cellophane envelope</li>
+                            <li>Good Moral Certification</li>
+                            <li>Passed the Reading and Multiplication Table Tests</li>
+                            <li>Marriage Contract (if married)</li>
+                            <li>Photocopy of PWD ID from DSWD (if PWD)</li>
+                            <li>Photocopy of any proof if 4Ps/Listahan 2.0 member or Household Number</li>
+                            <li>Certificate of Residency (if resident from Nasipit)</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="boxx">
+                    <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">9. College Transferees (BSED and BEED Programs)</b>
+                        <ul style="color: white;">
+                            <li>Honorable Dismissal</li>
+                            <li>Transcript of Records General Average of 85%</li>
+                            <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                            <li>Two (2) pcs. 2x2 colored picture</li>
+                            <li>1 long brown size envelope</li>
+                            <li>1 long cellophane envelope</li>
+                            <li>Good Moral Certification</li>
+                            <li>Passed the Reading and Multiplication Table Tests</li>
+                            <li>Marriage Contract (if married)</li>
+                            <li>Photocopy of PWD ID from DSWD (if PWD)</li>
+                            <li>Photocopy of any proof if 4Ps/Listahan 2.0 member or Household Number</li>
+                            <li>Certificate of Residency (if resident from Nasipit)</li>
+                        </ul>
+                    </p>
+                </div>
+                </div>
+                <br>
+                <br>
+            <div class="containerr">
+                <div class="boxx">
+                    <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">10. Seafarer</b>
+                        <ul style="color: white;">
+                            <li>Form 138 (Report Card)</li>
+                            <li>Photocopy of the Authenticated PSA Birth Certificate</li>
+                            <li>Must be 18 Years Old on or before the date of completion</li>
+                            <li>Two (2) pcs. 2x2 colored picture</li>
+                            <li>1 long brown size envelope</li>
+                            <li>1 long cellophane envelope</li>
+                            <li>Good Moral Certification from the Principal</li>
+                            <li>NCAE Result</li>
+                            <li>Marriage Contract (if married)</li>
+                            <li>Passed the Reading and Multiplication Table Tests</li>
+                            </ul>
+                        </p>
+                    </div>
+                <div class="boxx">
+                    <p style="text-align: left;"><b style="color: goldenrod; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">11. Aliens / Naturalized Filipinos</b>
+                        <ul style="color: white;">
+                            <li>Passed the Entrance Examination (written and oral)</li>
+                            <li>Form 138</li>
+                            <li>Photocopy of the Authenticated PSA Birth Certificate (translated in Enlish)</li>
+                            <li>Certificate of Good Moral Character</li>
+                            <li>Two (2) pcs. 2x2 colored picture</li>
+                            <li>Interview with the Principal</li>
+                            <li>1 long cellophane envelope</li>
+                            <li>Alien Certification of Registration (ACR)</li>
+                            <li>Study Permit from the Bureau of Immigration</li>
+                            <li>Photocopies of child's and parent's passport and visa</li>
+                            <li>Marriage Contract of Parents (optional)</li>
+                            </ul>
+                        </p>
+                    </div>
+            </div>
     </section>
+    </article>
+
+    <hr>
+
+    <article id="contact">
+    <section>
+        <button>CONTACT US</button>
+        <br>
+        <br>
+        <div class="contact-box">
+        <div class="text-boxx"> <strong>
+        <p>Address: Atupan St. Brgy. 4, Nasipit, Agusan del Norte Mindanao, Philippines 8602</p>
+        <p>Phone: (085) 225-0208 / 0906-404-8695</p>
+        <p>Email: <a href="mailto:admin@smccnasipit.edu.ph">admin@smccnasipit.edu.ph</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/SMCCofficial">https://www.facebook.com/SMCCofficial</a></p>
+        </strong>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+    </article>
+    </main>
+
 
     <footer>
         <p>&copy; 2024 SMCC. All rights reserved.</p>

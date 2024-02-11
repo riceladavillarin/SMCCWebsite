@@ -1,0 +1,208 @@
+
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: black;
+            background-image: url(smcc-bg.jpg);
+        }
+
+        header {
+            background-color: rgb(5, 5, 129);
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        .img-header {
+            display: flex;
+            align-items: center;
+            margin-left: 265px; 
+        }
+          
+        .header h1 {
+            margin-left: 10px;
+        }
+
+        nav {
+            background-color: rgb(223, 196, 40);
+            overflow: hidden;
+        }
+        
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin-left: 120px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: goldenrod;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: rgb(5, 5, 129);
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .box-style {
+            border: 5px solid rgb(5, 5, 129);
+            padding: 30px;
+            border-radius: 20px;
+            background-color: rgb(223, 196, 40);
+            width: 600px;
+            text-align: left;
+            margin-left: 250px;
+            box-shadow: 0 4px 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .box {
+            width: 30%;
+            height: 480px; 
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 10px;
+            text-align: left;
+            background-color: rgb(5, 5, 129);
+            box-shadow: 0 5px 20px;
+        }
+        .box img {
+            width: 100px; 
+            height: 100px; 
+            display: block;
+            margin: 0 auto 10px; 
+        }
+
+        .text-box {
+            border: 2px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            height: 250px;
+            background-color: rgb(223, 196, 40);
+            box-shadow: 10px 10px white;
+        }
+
+        .containerr {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .boxx {
+            width: 30%;
+            height: fit-content; 
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px;
+            text-align: left;
+            background-color: rgb(5, 5, 129);
+            box-shadow: 0 4px 20px;
+        }
+
+        .contact-box {
+            background-color: rgb(5, 5, 129);
+            padding: 10px;
+            border-radius: 20px;
+            width: fit-content;
+            height: 220px;
+            margin: 10px;
+            margin-left: 230px;
+            box-shadow: 0 4px 20px;
+        }
+
+        .text-boxx {
+            border: 2px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            height: fit-content;
+            background-color: rgb(223, 196, 40);
+            box-shadow: 10px 10px white;
+        }
+
+        .service-box {
+            text-align: center;
+            font-size: 18px;
+            color: black;
+            background-color: rgb(223, 196, 40);
+            font-weight: 900;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 20px;
+            width: fit-content;
+            margin-left: 510px;
+        }
+
+        button {
+            text-align: center;
+            font-size: 18px;
+            color: black;
+            background-color: rgb(223, 196, 40);
+            font-weight: 900;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 20px;
+            width: fit-content;
+            margin-left: 470px;
+        }
+
+        .box-button {
+            text-align: center;
+            font-size: 15px;
+            color: goldenrod;
+            background-color: rgb(5, 5, 129);
+            font-weight: 900;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+            box-shadow: none;
+            width: 200px;
+            margin-left: 480px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-wrapper {
+            text-align: center;
+            margin: 10px 0px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
