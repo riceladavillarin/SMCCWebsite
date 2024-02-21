@@ -20,16 +20,6 @@
             font-size: 20px;
         }
 
-        .img-header {
-            display: flex;
-            align-items: center;
-            margin-left: 280px; 
-        }
-          
-        .header h1 {
-            margin-left: 10px;
-        }
-
         nav {
             background-color: rgb(223, 196, 40);
             overflow: hidden;
@@ -192,15 +182,17 @@
         }
 
         .image-container {
-            display: flex;
-            justify-content: space-between;
+            margin: 10px 0px;
         }
-
+        
         .image-wrapper {
             text-align: center;
             margin: 10px 0px;
-            max-width: 100%;
-            height: auto;
+        }
+        
+        .img-fluid {
+            height: 510px;
+            width: 600px;
         }
 
         html {
